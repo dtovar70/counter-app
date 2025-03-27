@@ -1,10 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+//import {HelloWordApp} from './HelloWordApp'
+import {FirstApp} from './FirstApp'
 import './index.css'
-import App from './App.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
+        <FirstApp title="Hola, soy Goku"/>
+    </React.StrictMode>
+);
