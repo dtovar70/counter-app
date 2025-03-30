@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             subtitle = "Soy un subtitulo"
         /> */}
         <CounterApp
-            value = {1}
+            value = {3}
         />        
     </React.StrictMode>
 );
