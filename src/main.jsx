@@ -7,12 +7,10 @@ import { CounterApp } from './CounterApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-       {/*  <FirstApp 
-            title = "Hola soy Goku"
-            subtitle = "Soy un subtitulo"
-        /> */}
-        <CounterApp
-            value = {3}
-        />        
+        <FirstApp 
+            title="Mi título" 
+            subtitle="Mi subtítulo" 
+            name="Mi nombre" 
+        />
     </React.StrictMode>
 );
